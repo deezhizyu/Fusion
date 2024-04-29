@@ -1,0 +1,3 @@
+[submodule "deps/UAssetAPI"]
+	path = deps/UAssetAPI
+	url = git@github.com:deezhizyu/UAssetAPI.git
