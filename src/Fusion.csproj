@@ -7,6 +7,8 @@
 		<Nullable>enable</Nullable>
 		<ApplicationIcon>Fusion.ico</ApplicationIcon>
 		<PublishTrimmed>true</PublishTrimmed>
+                <SelfContained>true</SelfContained>
+                <PublishSingleFile>true</PublishSingleFile>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 	</PropertyGroup>
