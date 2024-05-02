@@ -70,6 +70,7 @@ jobs:
         
     - name: Install dependencies
       run: dotnet restore
+      working-directory: ${{ env.Wap_Project_Directory }}
       
     - name: Build with dotnet
       run: dotnet build --configuration Release --no-restore
